@@ -1,12 +1,12 @@
 Feature: searching a word in google
 
-	Scenario: kai pan
+	Scenario: Google scenario1
 		Given google homepage
 		When I search in home page
 			| normal_search |
 		Then it will give proper output
 
-	Scenario: kai pan part 2
+	Scenario: Google scenario2
 		Given google homepage
 		When I search in home page
 			| sentence_search |
