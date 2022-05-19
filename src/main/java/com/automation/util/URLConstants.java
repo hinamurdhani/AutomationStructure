@@ -9,6 +9,6 @@ package com.automation.util;
  *
  */
 public class URLConstants {
-	public static final String GOOGLE_HOMEPAGE = "https://www.google.com";
+	public static final String VETTED_LOGIN_URL = "https://vetted.slackcart.com/login?next=%2F";
 		
 }

@@ -1,1 +1,5 @@
-org\example\MyMojo.class
+com\automation\util\URLConstants.class
+com\automation\pageobject\VettedLoginPageObject.class
+com\automation\util\Locators.class
+com\automation\util\ResourcePathConstants.class
+com\automation\util\UtilFactory.class

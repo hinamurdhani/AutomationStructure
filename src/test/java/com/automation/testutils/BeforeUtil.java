@@ -54,8 +54,8 @@ public class BeforeUtil implements DriverSource {
 					System.out.println("@LINUX : "+ResourcePathConstants.CHROME_DRIVER_LINUX);
 					System.out.println(ResourcePathConstants.CHROME_DRIVER_LINUX);
 				}
-				//capability = DesiredCapabilities.chrome();
-				//capability.setCapability("marionette", true);
+//				capability = DesiredCapabilities.chrome();
+				capability.setCapability("marionette", true);
 				driver = new ChromeDriver();
 				System.out.println("Chrome Driver Initailized" + driver);
 				return driver;
